@@ -1,0 +1,18 @@
+energiserSpeedMultiplier = 1.0
+#How much heat do pipes lose per second.
+#Range: 0.0 ~ 1.7976931348623157E308
+passivePipeHeatLoss = 1.0
+#How many coils can the carbon brushes collect energy from
+#Range: > 0
+maxCoils = 8
+#Responsible for how much energy is generated per 1 stress unit in a tick
+#Default value is supposed to be compatible with default configuration of Create: Crafts and Additions
+#Range: 0.0 ~ 1.7976931348623157E308
+suToEnergy = 0.029296875
+#Multiplier of wire conductivity
+#Range: 0.0 ~ 1.7976931348623157E308
+conductivityMultiplier = 1.0
+#Maximum depth of network pathfinding
+#Range: > 1
+maxPathfindingDepth = 24
+

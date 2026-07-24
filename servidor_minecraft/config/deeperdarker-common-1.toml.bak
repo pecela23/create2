@@ -1,0 +1,6 @@
+stalkerSpawnChance = 0.3125
+#Chance of a vase being fake
+#Default: 0.16
+#Range: 0.0 ~ 1.0
+fakeVaseChance = 0.16
+

@@ -1,0 +1,5 @@
+passivePipeHeatLoss = 1.0
+#How many coils can the carbon brushes collect energy from
+#Range: > 0
+maxCoils = 8
+

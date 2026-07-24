@@ -1,0 +1,110 @@
+2026/07/21 00:50:14 logtail started
+2026/07/21 00:50:14 Program starting: v1.80.2-t62b8bf6a0-g3c35ee987, Go 1.23.5: []string{"./tailscaled"}
+2026/07/21 00:50:14 LogID: b937e88fb34e4ab05495022383d8b1f8423ff38c24ef6f648b00b3d8c4587405
+2026/07/21 00:50:14 logpolicy: using system state directory "/var/lib/tailscale"
+2026/07/21 00:50:14 dns: resolvedIsActuallyResolver error: resolv.conf doesn't point to systemd-resolved; points to [127.0.0.53 168.63.129.16]
+2026/07/21 00:50:14 dns: [rc=resolved resolved=not-in-use ret=direct]
+2026/07/21 00:50:14 dns: using "direct" mode
+2026/07/21 00:50:14 dns: using *dns.directManager
+2026/07/21 00:50:14 dns: inotify addwatch: context canceled
+2026/07/21 00:50:14 wgengine.NewUserspaceEngine(tun "tailscale0") ...
+2026/07/21 00:50:14 dns: resolvedIsActuallyResolver error: resolv.conf doesn't point to systemd-resolved; points to [127.0.0.53 168.63.129.16]
+2026/07/21 00:50:14 dns: [rc=resolved resolved=not-in-use ret=direct]
+2026/07/21 00:50:14 dns: using "direct" mode
+2026/07/21 00:50:14 dns: using *dns.directManager
+2026/07/21 00:50:14 link state: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.10.27/16 llu6]} v4=true v6=false}
+2026/07/21 00:50:14 onPortUpdate(port=59360, network=udp6)
+2026/07/21 00:50:14 router: using firewall mode pref 
+2026/07/21 00:50:14 router: default choosing iptables
+2026/07/21 00:50:14 router: netfilter running in iptables mode v6 = true, v6filter = true, v6nat = true
+2026/07/21 00:50:14 onPortUpdate(port=34018, network=udp4)
+2026/07/21 00:50:14 magicsock: disco key = d:8e54a7cbf54e1622
+2026/07/21 00:50:14 Creating WireGuard device...
+2026/07/21 00:50:14 Bringing WireGuard device up...
+2026/07/21 00:50:14 Bringing router up...
+2026/07/21 00:50:14 external route: up
+2026/07/21 00:50:14 Clearing router settings...
+2026/07/21 00:50:14 Starting network monitor...
+2026/07/21 00:50:14 Engine created.
+2026/07/21 00:50:14 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:254 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5210 Table:254 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2026/07/21 00:50:14 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:253 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5230 Table:253 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2026/07/21 00:50:14 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:0 Protocol:0 Scope:0 Type:7 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5250 Table:0 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2026/07/21 00:50:14 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:52 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5270 Table:52 Mark:0 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2026/07/21 00:50:14 pm: migrating "_daemon" profile to new format
+2026/07/21 00:50:14 logpolicy: using system state directory "/var/lib/tailscale"
+2026/07/21 00:50:14 got LocalBackend in 49ms
+2026/07/21 00:50:14 Start
+2026/07/21 00:50:14 monitor: [unexpected] network state changed, but stringification didn't: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.10.27/16 llu6]} v4=true v6=false}
+2026/07/21 00:50:14 monitor: [unexpected] old: {"InterfaceIPs":{"docker0":["172.17.0.1/16"],"eth0":["10.0.10.27/16","fe80::72a8:a5ff:fe1b:22ba/64"],"lo":["127.0.0.1/8","::1/128"]},"Interface":{"docker0":{"Index":3,"MTU":1500,"Name":"docker0","HardwareAddr":"AkJzmdzm","Flags":19,"AltAddrs":null,"Desc":""},"eth0":{"Index":2,"MTU":1500,"Name":"eth0","HardwareAddr":"cKilGyK6","Flags":51,"AltAddrs":null,"Desc":""},"lo":{"Index":1,"MTU":65536,"Name":"lo","HardwareAddr":null,"Flags":37,"AltAddrs":null,"Desc":""}},"HaveV6":false,"HaveV4":true,"IsExpensive":false,"DefaultRouteInterface":"eth0","HTTPProxy":"","PAC":""}
+2026/07/21 00:50:14 monitor: [unexpected] new: {"InterfaceIPs":{"docker0":["172.17.0.1/16"],"eth0":["10.0.10.27/16","fe80::72a8:a5ff:fe1b:22ba/64"],"lo":["127.0.0.1/8","::1/128"],"tailscale0":["fe80::2660:85c0:413:42b/64"]},"Interface":{"docker0":{"Index":3,"MTU":1500,"Name":"docker0","HardwareAddr":"AkJzmdzm","Flags":19,"AltAddrs":null,"Desc":""},"eth0":{"Index":2,"MTU":1500,"Name":"eth0","HardwareAddr":"cKilGyK6","Flags":51,"AltAddrs":null,"Desc":""},"lo":{"Index":1,"MTU":65536,"Name":"lo","HardwareAddr":null,"Flags":37,"AltAddrs":null,"Desc":""},"tailscale0":{"Index":5,"MTU":1280,"Name":"tailscale0","HardwareAddr":null,"Flags":57,"AltAddrs":null,"Desc":""}},"HaveV6":false,"HaveV4":true,"IsExpensive":false,"DefaultRouteInterface":"eth0","HTTPProxy":"","PAC":""}
+2026/07/21 00:50:14 LinkChange: major, rebinding. New state: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.10.27/16 llu6]} v4=true v6=false}
+2026/07/21 00:50:14 onPortUpdate(port=59360, network=udp6)
+2026/07/21 00:50:14 onPortUpdate(port=34018, network=udp4)
+2026/07/21 00:50:14 Backend: logs: be:b937e88fb34e4ab05495022383d8b1f8423ff38c24ef6f648b00b3d8c4587405 fe:
+2026/07/21 00:50:14 Switching ipn state NoState -> NeedsLogin (WantRunning=false, nm=false)
+2026/07/21 00:50:14 blockEngineUpdates(true)
+2026/07/21 00:50:14 wgengine: Reconfig: configuring userspace WireGuard config (with 0/0 peers)
+2026/07/21 00:50:14 wgengine: Reconfig: configuring router
+2026/07/21 00:50:14 wgengine: Reconfig: configuring DNS
+2026/07/21 00:50:14 dns: Set: {DefaultResolvers:[] Routes:{} SearchDomains:[] Hosts:0}
+2026/07/21 00:50:14 dns: Resolvercfg: {Routes:{} Hosts:0 LocalDomains:[], cloud="azure"}
+2026/07/21 00:50:14 dns: OScfg: {}
+2026/07/21 00:50:14 Rebind; defIf="eth0", ips=[10.0.10.27/16 fe80::72a8:a5ff:fe1b:22ba/64]
+2026/07/21 00:50:14 magicsock: 0 active derp conns
+2026/07/21 00:50:14 health(warnable=wantrunning-false): error: Tailscale is stopped.
+2026/07/21 00:50:14 monitor: gateway and self IP changed: gw=10.0.0.1 self=10.0.10.27
+2026/07/21 00:50:14 Start
+2026/07/21 00:50:14 Backend: logs: be:b937e88fb34e4ab05495022383d8b1f8423ff38c24ef6f648b00b3d8c4587405 fe:
+2026/07/21 00:50:14 Switching ipn state NoState -> NeedsLogin (WantRunning=true, nm=false)
+2026/07/21 00:50:14 blockEngineUpdates(true)
+2026/07/21 00:50:14 health(warnable=warming-up): error: Tailscale is starting. Please wait.
+2026/07/21 00:50:14 control: client.Shutdown ...
+2026/07/21 00:50:14 control: updateRoutine: exiting
+2026/07/21 00:50:14 health(warnable=wantrunning-false): ok
+2026/07/21 00:50:14 control: authRoutine: exiting
+2026/07/21 00:50:14 control: mapRoutine: exiting
+2026/07/21 00:50:14 control: Client.Shutdown done.
+2026/07/21 00:50:14 StartLoginInteractiveAs("root"): url=false
+2026/07/21 00:50:14 control: client.Login(2)
+2026/07/21 00:50:14 control: LoginInteractive -> regen=true
+2026/07/21 00:50:14 control: doLogin(regen=true, hasUrl=false)
+2026/07/21 00:50:15 router: somebody (likely systemd-networkd) deleted ip rules; restoring Tailscale's
+2026/07/21 00:50:15 control: control server key from https://controlplane.tailscale.com: ts2021=[fSeS+], legacy=[nlFWp]
+2026/07/21 00:50:15 control: Generating a new nodekey.
+2026/07/21 00:50:15 control: RegisterReq: onode= node=[ThaDq] fup=false nks=false
+2026/07/21 00:50:16 control: RegisterReq: got response; nodeKeyExpired=false, machineAuthorized=false; authURL=true
+2026/07/21 00:50:16 control: AuthURL is https://login.tailscale.com/a/16d5501c015ae3
+2026/07/21 00:50:16 control: doLogin(regen=false, hasUrl=true)
+2026/07/21 00:50:16 Received auth URL: https://login.tailsc...
+2026/07/21 00:50:16 popBrowserAuthNow("root"): url=true, key-expired=false, seamless-key-renewal=false
+2026/07/21 00:50:16 blockEngineUpdates(true)
+2026/07/21 00:50:16 stopEngineAndWait...
+2026/07/21 00:50:16 control: RegisterReq: onode= node=[ThaDq] fup=true nks=false
+2026/07/21 00:50:16 requestEngineStatusAndWait
+2026/07/21 00:50:16 requestEngineStatusAndWait: waiting...
+2026/07/21 00:50:16 requestEngineStatusAndWait: got status update.
+2026/07/21 00:50:16 stopEngineAndWait: done.
+2026/07/21 00:50:19 health(warnable=warming-up): ok
+2026/07/21 00:50:25 Received error: register request: http 410: auth path not found
+2026/07/21 00:50:25 health(warnable=login-state): error: You are logged out. The last login error was: register request: http 410: auth path not found
+2026/07/21 00:50:25 control: doLogin(regen=false, hasUrl=true)
+2026/07/21 00:50:25 control: RegisterReq: onode= node=[ThaDq] fup=true nks=false
+2026/07/21 00:58:14 health(warnable=not-in-map-poll): error: Unable to connect to the Tailscale coordination server to synchronize the state of your tailnet. Peer reachability might degrade over time.
+2026/07/21 01:20:21 tailscaled got signal interrupt; shutting down
+2026/07/21 01:20:21 control: client.Shutdown ...
+2026/07/21 01:20:21 control: updateRoutine: exiting
+2026/07/21 01:20:21 control: authRoutine: exiting
+2026/07/21 01:20:21 control: mapRoutine: exiting
+2026/07/21 01:20:21 control: Client.Shutdown done.
+2026/07/21 01:20:21 monitor: RTM_DELROUTE: src=, dst=fe80::/64, gw=, outif=5, table=254
+2026/07/21 01:20:21 monitor: RTM_DELROUTE: src=, dst=fe80::2660:85c0:413:42b/128, gw=, outif=5, table=255
+2026/07/21 01:20:21 monitor: RTM_DELROUTE: src=, dst=ff00::/8, gw=, outif=5, table=255
+2026/07/21 01:20:21 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:254 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5210 Table:254 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2026/07/21 01:20:21 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:253 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5230 Table:253 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2026/07/21 01:20:21 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:0 Protocol:0 Scope:0 Type:7 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5250 Table:0 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2026/07/21 01:20:21 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:52 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5270 Table:52 Mark:0 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2026/07/21 01:20:21 monitor: [unexpected] network state changed, but stringification didn't: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.10.27/16 llu6]} v4=true v6=false}
+2026/07/21 01:20:21 monitor: [unexpected] old: {"InterfaceIPs":{"docker0":["172.17.0.1/16"],"eth0":["10.0.10.27/16","fe80::72a8:a5ff:fe1b:22ba/64"],"lo":["127.0.0.1/8","::1/128"],"tailscale0":["fe80::2660:85c0:413:42b/64"]},"Interface":{"docker0":{"Index":3,"MTU":1500,"Name":"docker0","HardwareAddr":"AkJzmdzm","Flags":19,"AltAddrs":null,"Desc":""},"eth0":{"Index":2,"MTU":1500,"Name":"eth0","HardwareAddr":"cKilGyK6","Flags":51,"AltAddrs":null,"Desc":""},"lo":{"Index":1,"MTU":65536,"Name":"lo","HardwareAddr":null,"Flags":37,"AltAddrs":null,"Desc":""},"tailscale0":{"Index":5,"MTU":1280,"Name":"tailscale0","HardwareAddr":null,"Flags":57,"AltAddrs":null,"Desc":""}},"HaveV6":false,"HaveV4":true,"IsExpensive":false,"DefaultRouteInterface":"eth0","HTTPProxy":"","PAC":""}
+2026/07/21 01:20:21 monitor: [unexpected] new: {"InterfaceIPs":{"docker0":["172.17.0.1/16"],"eth0":["10.0.10.27/16","fe80::72a8:a5ff:fe1b:22ba/64"],"lo":["127.0.0.1/8","::1/128"]},"Interface":{"docker0":{"Index":3,"MTU":1500,"Name":"docker0","HardwareAddr":"AkJzmdzm","Flags":19,"AltAddrs":null,"Desc":""},"eth0":{"Index":2,"MTU":1500,"Name":"eth0","HardwareAddr":"cKilGyK6","Flags":51,"AltAddrs":null,"Desc":""},"lo":{"Index":1,"MTU":65536,"Name":"lo","HardwareAddr":null,"Flags":37,"AltAddrs":null,"Desc":""}},"HaveV6":false,"HaveV4":true,"IsExpensive":false,"DefaultRouteInterface":"eth0","HTTPProxy":"","PAC":""}
+2026/07/21 01:20:21 flushing log.
+2026/07/21 01:20:21 logger closing down
